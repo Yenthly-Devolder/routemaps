@@ -1,0 +1,9 @@
+POST /optimized-trips/v2?access_token=YOUR_MAPBOX_ACCESS_TOKEN HTTP/1.1
+Host: api.mapbox.com
+Content-Type: application/json
+
+{
+    "version": 1,
+    "vehicles": [...],
+    "services": [...]
+}
